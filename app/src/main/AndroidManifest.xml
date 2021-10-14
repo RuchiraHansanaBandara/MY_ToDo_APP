@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyTodoApp">
         <activity
+            android:name=".EditTodo"
+            android:exported="true" />
+        <activity
+            android:name=".AddTodo"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
