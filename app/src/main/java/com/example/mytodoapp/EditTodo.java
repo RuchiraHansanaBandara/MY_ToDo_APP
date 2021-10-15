@@ -8,9 +8,9 @@ import android.widget.EditText;
 
 public class EditTodo extends AppCompatActivity {
 
-    Button btnedit;
-    EditText editTitle;
-    EditText editDecs;
+    private Button btnedit;
+    private EditText editTitle;
+    private EditText editDecs;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
